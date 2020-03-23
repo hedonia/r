@@ -1,5 +1,3 @@
-survey <- data.frame("index" = c(1, 2, 3, 4, 5),
-                     "age" = c(24, 25, 42, 56, 22))
-
-names(survey)[1] <- "participant.number"
-names(survey)[names(survey) == "age"] <- "years"
+health <- data.frame("age" = c(32, 24, 43, 19, 43),
+                     "height" = c(1.75, 1.65, 1.50, 1.92, 1.80),
+                     "weight" = c(70, 65, 62, 79, 85))
